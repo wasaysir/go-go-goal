@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% set page_title = 'Search' %}
+{% block content %}
+{% from "_formhelpers.html" import render_field %}
+
+    <form method=post action="{{ url_for('views.search_user')}}">
+    <div>
+        {{ render_field(form.search) }}
+    </div>
+    <p><input type=submit value=Search>
+    </form>
+{% endblock %}

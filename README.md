@@ -7,3 +7,11 @@
       {% endfor %}
       </ul>
 -->
+
+<!--
+
+<div>
+    {{ render_form(url_for('views.search_user'), form) }} # note: render_form is some macro from another .html file
+</div>
+
+-->
