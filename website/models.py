@@ -10,6 +10,8 @@ class User(db.Model, UserMixin):
     password = db.Column(db.String(150))
     date_created = db.Column(db.DateTime, default = func.now())
     goals = db.relationship('Goals')
+    following = db.relationship('Follows', foreign_keys="Follows.target_id")
+    followers = db.relationship('Follows', foreign_keys="Follows.source_id")
 
 class Goals(db.Model):
     id = db.Column(db.Integer, primary_key = True)
@@ -23,3 +25,9 @@ class Date_goals(db.Model):
     date = db.Column(db.DateTime, default = func.now())
     goal_accomplished = db.Column(db.Boolean, nullable = True)
     goals_id = db.Column(db.Integer, db.ForeignKey('goals.id'), nullable = False)
+
+class Follows(db.Model):
+    id = db.Column(db.Integer, primary_key = True)
+    follow_date = db.Column(db.DateTime, default = func.now())
+    source_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable = False)
+    target_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable = False)
