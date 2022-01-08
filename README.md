@@ -1,0 +1,1 @@
+-- Requires Python, Flask, SQLAlchemy, SQLite(v3.37.2)
