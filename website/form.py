@@ -35,4 +35,3 @@ class SearchForm(FlaskForm):
         'Username',
         [DataRequired()]
     )
-    submit = SubmitField('Submit')
