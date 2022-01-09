@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% set page_title = 'Profile' %}
+
+{% block content %}
+<h1 align="center"></h1>
+<ul class="list-group list-group-flush" id="goals">
+  {% for goal in query_user.goals %}
+  <li class="list-group-item"> {{goal.goal}}</li>
+  {% endfor %}
+  </ul>
+
+  {% if prev_relationship_bool %}
+  <form method="POST">
+    <div align="center">
+        <button type = "submit" class = "btn btn-primary"> Unfollow</button>
+        </div>
+    </form>
+    {% else %}
+    <form method="POST">
+      <div align="center">
+          <button type = "submit" class = "btn btn-primary"> Follow User</button>
+          </div>
+      </form>
+  {% endif %}
+
+
+{% endblock %}

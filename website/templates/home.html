@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %} Goal! {% endblock %}
+
+{% block content %}
+
+<h1 align="center"></h1>
+<ul class="list-group list-group-flush" id="goals">
+  {% for goal in user.goals %}
+  <li class="list-group-item">
+    {{goal.goal}}
+    <
+  </li>
+  {% endfor %}
+  </ul>
+  </br>
+<form method="POST">
+  <textarea
+    name="goal"
+    id = "goal"
+    placeholder="Enter goal"
+    class="form-control">
+  </textarea>
+  <br>
+  <div align="center">
+      <button type = "submit" class = "btn btn-primary"> Add Goal </button>
+      </div>
+  </form>
+{% endblock %}
