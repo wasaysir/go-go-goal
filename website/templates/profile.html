@@ -8,9 +8,20 @@
   <li class="list-group-item"> {{goal.goal}}</li>
   {% endfor %}
   </ul>
-<form method="POST">
-  <div align="center">
-      <button type = "submit" class = "btn btn-primary"> Follow User</button>
-      </div>
-  </form>
+
+  {% if prev_relationship_bool %}
+  <form method="POST">
+    <div align="center">
+        <button type = "submit" class = "btn btn-primary"> Unfollow</button>
+        </div>
+    </form>
+    {% else %}
+    <form method="POST">
+      <div align="center">
+          <button type = "submit" class = "btn btn-primary"> Follow User</button>
+          </div>
+      </form>
+  {% endif %}
+
+
 {% endblock %}
