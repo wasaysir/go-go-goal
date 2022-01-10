@@ -67,7 +67,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]("https://github.com/wasaysir/go-go-goal/blob/main/go-go-goal-demo.png")
+[![Product Name Screen Shot][product-screenshot]](https://raw.githubusercontent.com/wasaysir/go-go-goal/main/go-go-goal-demo.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -197,4 +197,4 @@ Project Link: [https://github.com/wasaysir/go_go_goal](https://github.com/wasays
 [license-url]: https://github.com/wasaysir/go_go_goal/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/wasay-saeed-3780ab164
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: go-go-goal-demo.png
