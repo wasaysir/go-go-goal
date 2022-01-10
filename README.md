@@ -8,12 +8,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -50,6 +44,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <!--
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -57,6 +52,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
+-->
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -71,9 +67,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `wasaysir`, `go_go_goal`, `twitter_handle`, `wasay-saeed-3780ab164`, `mwasaysaeed`, `gmail`, `Go Go Goals!`, `project_description`
+[![Product Name Screen Shot][product-screenshot]]()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -90,7 +84,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 
-<!-- GETTING STARTED -->
+<!-- GETTING STARTED 
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -121,10 +115,11 @@ This is an example of how to list things you need to use the software and how to
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+-->
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE EXAMPLES 
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
@@ -132,16 +127,18 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
+-->
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Implement Logo
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
+- [ ] Allow Goals to be tracked daily
+- [ ] Make feed to see all of followed users' goals
+- [ ] Allow users to comment on progress and provide motivation
+- [ ] Categorize types of goals
+- [ ] Create analysis on goals for users
+- [ ] Host onto an actual website
 
 See the [open issues](https://github.com/wasaysir/go_go_goal/issues) for a full list of proposed features (and known issues).
 
@@ -184,18 +181,6 @@ Your Name - mwasaysaeed@gmail.com
 Project Link: [https://github.com/wasaysir/go_go_goal](https://github.com/wasaysir/go_go_goal)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
